@@ -25,7 +25,10 @@
   </div>
 </body>
 <script>
-  let text = document.getElementById("title");
+  let huidigeTijd = new Date ();
+  if(huidigeTijd.getHours ()> 19 && huidigeTijd.getHours() <24) {
+    var element = document.body;
+        element.classList.toggle("dark-modebody");}
 </script>
 </html>
 

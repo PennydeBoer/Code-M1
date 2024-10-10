@@ -31,3 +31,14 @@ ul{
   background-color: #111;
   color: #eee;
 }
+.dark-modebody {
+  background-color: rgb(0, 33, 36);
+  background: linear-gradient(black, rgb(77, 28, 8));
+  color: white;
+  .article{background: black;}
+  .main{background: black;}
+} 
+
+.DMbutton {
+  margin-left:90%;
+}
